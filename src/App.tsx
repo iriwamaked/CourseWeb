@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <div className="app">
         <Header />
-        <h1>{APP_TITLE}</h1>
+       
         <Routes>
           <Route path="/" element={<Home/>}></Route>
           <Route index element={<Home/>}/>
@@ -22,4 +22,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
