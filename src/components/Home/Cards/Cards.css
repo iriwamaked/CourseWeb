@@ -1,0 +1,48 @@
+
+.card {
+    height: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Слегка скругленные углы */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Эффект при наведении */
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-content h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card-content p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    color: #777;
+}
+
+.bi-card{
+    font-size: 2rem;
+}
+
+.icons{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+@media (max-width: 700px) {
+    .col-4{
+        width: 100%;
+    }
+  }

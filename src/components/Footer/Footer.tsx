@@ -2,7 +2,7 @@ import './Footer.css'
 
 export function Footer(){
    return(
-   <footer className="bg-secondary-subtle fixed-bottom">
+   <footer className="bg-secondary-subtle mt-3">
         <ul className="nav justify-content-center border-bottom">
         <li className="nav-item"> <a href=" " className="nav-link px-2 text-muted">Головна</a></li>
             <li className="nav-item"> <a href="" className="nav-link px-2 text-muted">Про нас</a></li>

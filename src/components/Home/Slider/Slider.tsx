@@ -31,7 +31,7 @@ export function Slider() {
     }, [currentSlide]);
 
     return (
-        <section>
+        <section className="section-slider">
             <div className="wrapper">
                 <input type="radio" name="point" id="slide1" checked={currentSlide === 1} onChange={() => goToSlide(1)} />
                 <input type="radio" name="point" id="slide2" checked={currentSlide === 2} onChange={() => goToSlide(2)} />
