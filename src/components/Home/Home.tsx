@@ -1,6 +1,7 @@
 import { Cards } from "./Cards/Cars";
 import { Slider } from "./Slider/Slider";
 import { About } from "./About/About";
+import { Experts } from "./Experts/Experts";
 
 export function Home() {
   
@@ -9,6 +10,7 @@ export function Home() {
         <Slider/>
         <Cards/>
         <About/>
+        <Experts/>
         </>
         
     );

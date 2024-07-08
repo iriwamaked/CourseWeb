@@ -2,10 +2,10 @@ import './App.css'
 import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
 import { Home } from './components/Home/Home';
-import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
-  const APP_TITLE = "Адвокaтське об'єднання \"Македонські та партнери\"";
+  // const APP_TITLE = "Адвокaтське об'єднання \"Македонські та партнери\"";
   return (
     <BrowserRouter>
       <div className="app">
