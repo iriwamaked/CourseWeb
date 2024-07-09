@@ -27,7 +27,7 @@ export function Experts() {
         <section >
             <h3 className="text-center mb-5 fs-1">Склад Адвокатського об'єднання "Македонські та партнери"</h3>
             <div className="container">
-                <div className="row">
+                <div className="row row-40 align-items-sm-end">
                     <div className="col-sm-6 col-md-4 col-lg-3">
                         <div className="thumbnail-variant-2-wrap">
                             <div className="thumbnail thumbnail-variant-2">
@@ -53,7 +53,7 @@ export function Experts() {
                                 </figure>
                                 <div className="thumbnail-inner">
                                     <div className="link-group"><i className="bi bi-telephone-fill gold-color"></i><a className="link-white ls" href="tel:#">+380679047543</a></div>
-                                    <div className="link-group"><i className="bi bi-telephone-fill gold-color"></i><a className="link-white ls" href="tel:#">+380679047543</a></div>
+                                    <div className="link-group"><i className="bi bi-telephone-fill gold-color"></i><a className="link-white ls" href="tel:#">+380739047543</a></div>
                                     <div className="link-group"><i className="bi bi-envelope-at-fill gold-color"></i><a className="link-white" href="mailto:#">adv.makedonskui@gmail.com</a></div>
                                 </div>
                                 <div className="thumbnail-caption">
@@ -70,8 +70,8 @@ export function Experts() {
                                 <figure className="thumbnail-image"><img src="./img/team/eu.jpg" alt=""  />
                                 </figure>
                                 <div className="thumbnail-inner">
-                                    <div className="link-group"><i className="bi bi-telephone-fill gold-color"></i><a className="link-white ls" href="tel:#">+1 (409) 987–5874</a></div>
-                                    <div className="link-group"><i className="bi bi-envelope-at-fill gold-color"></i><a className="link-white" href="mailto:#">info@demolink.org</a></div>
+                                    <div className="link-group"><i className="bi bi-telephone-fill gold-color"></i><a className="link-white ls" href="tel:#">+380509267146</a></div>
+                                    <div className="link-group"><i className="bi bi-envelope-at-fill gold-color"></i><a className="link-white" href="mailto:#">bikova.eu@ukr.net</a></div>
                                 </div>
                                 <div className="thumbnail-caption">
                                     <p className="text-header"><a href="#">Олена БИКОВА</a></p>
@@ -87,8 +87,10 @@ export function Experts() {
                                 <figure className="thumbnail-image"><img src="./img/team/buhor.jpg" alt=""  />
                                 </figure>
                                 <div className="thumbnail-inner">
-                                    <div className="link-group"><i className="bi bi-telephone-fill gold-color"></i><a className="link-white ls" href="tel:#">+1 (409) 987–5874</a></div>
-                                    <div className="link-group"><i className="bi bi-envelope-at-fill gold-color"></i><a className="link-white" href="mailto:#">info@demolink.org</a></div>
+                                    <div className="link-group"><i className="bi bi-sign-stop-fill gold-color fs-1"></i>
+                                    <p className="link-white" href="#">Право на заняття <br />адвокатською діяльністю зупинено <br />на період служби в ЗСУ</p>
+                                    </div>
+                                  
                                 </div>
                                 <div className="thumbnail-caption">
                                     <p className="text-header"><a href="#">Олександр БУГОР</a></p>
